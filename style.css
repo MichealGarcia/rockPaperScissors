@@ -1,0 +1,44 @@
+.heading {
+    text-align: center;
+}
+
+.heading > h1 {
+    font-size: 80px;
+}
+
+.heading > h5 {
+    font-size: 30px;
+}
+
+ul.game {
+    padding-left: 0px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.game > li {
+    display: inline-block;
+}
+
+ul.game > li > button.choice {
+    outline: none;
+
+}
+
+ul.game > li > button.choice > p {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    color: rgb(46, 44, 44);
+}
+
+#userchoice:hover {
+    border: none;
+    background-color: transparent;
+}
